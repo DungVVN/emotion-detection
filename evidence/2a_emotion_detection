@@ -1,4 +1,3 @@
-"""Call the Watson NLP emotion service."""
 import requests
 
 URL = (
