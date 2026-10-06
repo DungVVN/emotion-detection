@@ -1,6 +1,6 @@
-************* Module server
-server.py:37:0: C0327: Mixed line endings LF and CRLF (mixed-line-endings)
+python -m pylint server.py --persistent=n --disable=missing-module-docstring,missing-function-docstring
 
------------------------------------
-Your code has been rated at 9.47/10
+
+------------------------------------
+Your code has been rated at 10.00/10
 
