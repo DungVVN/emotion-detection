@@ -10,7 +10,6 @@ HEADERS = {
 
 
 def emotion_detector(text_to_analyze):
-    """Return emotion scores and the dominant emotion."""
     response = requests.post(
         URL, json={"raw_document": {"text": text_to_analyze}},
         headers=HEADERS, timeout=30

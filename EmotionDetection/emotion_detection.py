@@ -10,7 +10,6 @@ HEADERS = {
 
 
 def emotion_detector(text_to_analyze):
-    """Return scores, or None values when Watson rejects input with HTTP 400."""
     response = requests.post(
         URL, json={"raw_document": {"text": text_to_analyze}},
         headers=HEADERS, timeout=30

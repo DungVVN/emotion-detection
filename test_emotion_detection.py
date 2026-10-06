@@ -1,10 +1,8 @@
-"""Integration tests using the live Watson NLP service."""
 import unittest
 from EmotionDetection.emotion_detection import emotion_detector
 
 
 class TestEmotionDetector(unittest.TestCase):
-    """Verify each required dominant emotion."""
 
     def test_joy(self):
         self.assertEqual(

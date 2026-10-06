@@ -1,4 +1,3 @@
-"""Serve the Emotion Detection application using Flask."""
 import requests
 from flask import Flask, render_template, request
 from EmotionDetection.emotion_detection import emotion_detector
@@ -8,7 +7,6 @@ app = Flask(__name__)
 
 @app.route("/emotionDetector")
 def emotion_detector_route():
-    """Analyze text and display emotion scores."""
     text = request.args.get("textToAnalyze", "")
     if not text.strip():
         return "Invalid text! Please try again!"
@@ -32,7 +30,6 @@ def emotion_detector_route():
 
 @app.route("/")
 def index():
-    """Render the application interface."""
     return render_template("index.html")
 
 
