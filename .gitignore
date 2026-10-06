@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.pylint-cache/
+dap-an-16-cau.txt
+output-minh-hoa-KHONG-PHAI-KET-QUA-THAT.txt

@@ -1,0 +1,4 @@
+HTTP 400 contract with mocked response: PASS
+Flask blank and whitespace input: PASS
+Flask home route: PASS
+These checks do not validate live Watson predictions.
